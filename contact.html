@@ -64,22 +64,23 @@
     <div class="container mt-5">
         <form class="contact_form" method="POST" action="#">
             <h1>Contact Us</h1>
-            <small>Fill up your queries and send to us...</small>
-            
+            <small class="notification">Fill up your queries and send to us...</small>
+
+            <hr>
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" name="name" required>
-                <span>Name is required</span>
+                <span class="form_hint">Name is required</span>
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Name</label>
+                <label for="" class="form-label">Email</label>
                 <input type="email" class="form-control" name="email" required>
-                <span>Email is required in email format and must be email</span>
+                <span class="form_hint">Email is required in email format and must be email</span>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" name="message" rows="6" cols="90" required></textarea>
-              <span>Message details required</span>
+              <span class="form_hint">Message details required</span>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
